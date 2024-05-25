@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "yatra";
+    src: url(font/YatraOne-Regular.ttf);
+}
+body{
+    background: linear-gradient(45deg,rgb(238, 79, 105),rgb(135, 238, 135),brown);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.calculator{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+     flex-direction: column; 
+     padding-top: 200px;
+     font-size: 40px;
+     font-family: "yatra";
+    
+}
+
+
+button {
+ font-family: "yatra";
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+   font-size: 20px;
+margin-bottom: 25px;
+}
+button:hover {
+    background-color:brown;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 29px;
+    font-size: 30px;
+    font-family: "yatra";
+}
